@@ -26,7 +26,7 @@ export const BatButtonAcept = () => {
             {
               color: pressed ? '#333': '#d3d3d3', 
             }
-          ]}>{pressed ? 'Enviado!' : 'Enviar'}</Text>
+          ]}>{pressed ? 'Enviar' : 'Enviar'}</Text>
         )}
       </Pressable>     
     </View>

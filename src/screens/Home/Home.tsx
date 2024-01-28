@@ -1,17 +1,22 @@
 import React from 'react';
-import { ScrollView, Image, Text, View } from 'react-native';
-import logo from '../../../assets/batLogo.png';
-
+import { Image, Pressable, View } from 'react-native';
 import { styles } from './Style';
 import { BatButton } from '../../components/BatButton/BatBtn';
 
+import logo from '../../../assets/batLogo.png';
+
 export function Home() {
+  
   return (
     <View style={styles.container}>
+       
+        <Image 
+          source={logo}
+        />
+      
 
-      <Image source={logo} />
       <BatButton />
-        
+               
     </View>
   );
 }
